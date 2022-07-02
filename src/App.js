@@ -7,12 +7,17 @@ import "./component/LandingPage.css"
 function App() {
   return (
     <div>
+      {/* Component NavigationBar */}
       <div> 
         <NavigationBar />
       </div>
+
+      {/* Component Intro */}
       <div> 
         <Intro />
       </div>
+      
+      {/* Component MyCollection */}
       <div>
         <MyCollection />
       </div>
