@@ -1,0 +1,265 @@
+/* NAVBAR */
+
+.navbar{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* INTRO */
+
+/* Container */
+.avatar-container {
+  width: 90%;
+ 
+}
+/* profile cover */
+.bg-prof{
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  width: 100%;
+ }
+.bg-prof img{
+  width: 100%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+ }
+/* profile image */
+.img-prof img{
+  width: 135px;
+  height: 135px;
+  padding: 5px;
+  background: white;
+  border-radius: 50%;
+  margin-top: -63px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+/* card body */
+.card-body{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 63px;
+  margin-bottom: 63px;
+ }
+.user-info{
+  width: auto;
+  height: auto;
+  font-size: 0.5em;
+  display: flex;
+  flex-direction: column; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.transaction{
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.user-info, .transaction{
+  padding: 5px;
+}
+.ada{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.ada h4{
+  font-size: 0.5em;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold ;
+}
+.coin{
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+
+/* MYCOLLECTION */
+
+/* accordion */
+.accordion{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contain{
+	display: flex;
+	flex-direction: row;
+	margin: 36px;
+	align-items: flex-start;
+	justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/* NFT STYLE */
+
+/* Container Style */
+.style0{
+	display: flex;
+  flex-direction: column;
+	align-items: center;
+	margin:18px;
+}
+/* First Style */
+.style1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.triangle {
+  width: 496px;
+  height: 135px;
+  background: #F2F2F2;
+  border: 1px solid #0000002E;
+  box-sizing: border-box;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.triangle img{
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  background: white;  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.roftop{
+  width: 450px;
+  height: 18px;
+  background: #F2F2F2;
+  border: 1px solid #0000002E;
+  box-sizing: border-box;
+}
+.floor, .roft{
+  width: 405px;
+  height: 18px;
+  background: #F2F2F2;
+  border: 1px solid #0000002E;
+  box-sizing: border-box;
+}
+.pillar-left, .pillar-right{
+  width: 18px;
+  height: 180px;
+  background: #F2F2F2;
+  border: 1px solid #0000002E;
+  box-sizing: border-box;
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+}
+/* Second Style */
+.style2{
+	width: 450px;
+	height: 81px;
+  background: #F2F2F2;
+  border: 1px solid #0000002E;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: Roboto;
+  letter-spacing: 0em;
+}
+.big{
+  font-weight: bold;
+}
+/* Third Style */
+.style3{
+	width: 496px;
+	height: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.button1,.button2, .button3{
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F2F2F2;
+  border: 1px solid #0000002E;
+  box-sizing: border-box;
+}
+	
+  
+
+
+
+
+  @media screen and (max-width: 990px){
+    .img-prof img{
+      width: 90px;
+      height: 90px;
+      margin-top: -45px;
+    }
+    .user-info, .transaction{
+      padding: 3px;
+    }
+    .style1 .triangle {
+      width: 300px;
+      height: 60px;
+    }
+    .style1 .triangle img{
+      width: 45px;
+      height: 45px;
+    }
+    .style1 img{
+      width: 180px;
+      height: 90px;
+    }
+    .style1 .floor,.style1 .roft{
+      width: 225px;
+      height: 9px;
+    }
+    .style1 .pillar-left,.style1 .pillar-right{
+      width: 9px;
+      height: 90px;
+      background: #F2F2F2;
+      border: 1px solid #0000002E;
+      box-sizing: border-box;
+    }
+    .style1 .roftop{
+      width: 252px;
+      height: 9px;
+    }
+    .style2{
+      width: 252px;
+      height: 45px;
+    }
+    .style2 span{
+      font-size: 9px;
+    }
+    
+    .style3{
+      width: 300px;
+      height: 27px;
+    }
+    .style3 .button1 img, .style3 .button2 img, .style3 .button3 img{
+      width: 18px;
+      height: 18px;
+    }
+    .bg-prof img{
+      height: 150px;
+    }
+    .button1 span, .button2 span , .button3 span{
+      font-size: 9px;
+    }
+  }
